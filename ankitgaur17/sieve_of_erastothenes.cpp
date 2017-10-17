@@ -1,6 +1,6 @@
-/*#include<iostream>
+#include<iostream>
 #include<cmath>
-using namespace std;*/
+using namespace std;
 
 void printPrimesUptoN(int N){
 	int ar[N] = {0};
@@ -15,9 +15,9 @@ void printPrimesUptoN(int N){
 		if(!ar[i])
 			cout<<i<<" ";
 }
-/*
+
 int main(){
 	printPrimesUptoN(120);
 	return 0;
 }
-*/
+
